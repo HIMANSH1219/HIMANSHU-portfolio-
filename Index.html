@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Himanshu Yadav | Digital Creator</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      /* Violet-pink subtle blend background */
+      background: linear-gradient(135deg, #8a2be2, #d36cad);
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    .container {
+      padding: 50px 20px;
+    }
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid transparent;
+      /* Smooth purple-pink rainbow gradient */
+      background: linear-gradient(45deg, #d36cad, #ff77ff, #da70d6, #a64ca6, #d36cad);
+      background-size: 300% 300%;
+      animation: smoothRainbow 10s ease infinite;
+      padding: 5px;
+      object-fit: cover;
+    }
+    @keyframes smoothRainbow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    h1 {
+      font-size: 60px;
+      margin: 20px 0;
+      background: linear-gradient(270deg, #d36cad, #ff77ff, #da70d6, #a64ca6);
+      background-size: 600% 600%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: smoothGradient 7s ease infinite;
+    }
+    @keyframes smoothGradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .box {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 15px;
+      border: 3px solid transparent;
+      background: linear-gradient(135deg, #1c1c2e, #302b3b);
+      position: relative;
+      z-index: 1;
+    }
+    .box::before {
+      content: "";
+      position: absolute;
+      top: -3px;
+      left: -3px;
+      right: -3px;
+      bottom: -3px;
+      background: linear-gradient(45deg, #d36cad, #ff77ff, #da70d6, #a64ca6);
+      z-index: -1;
+      border-radius: 15px;
+      background-size: 300% 300%;
+      animation: smoothRainbow 10s ease infinite;
+    }
+    .box a {
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #fff;
+      transition: 0.4s ease;
+    }
+    .box p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    .tagline {
+      font-size: 24px;
+      margin-top: 40px;
+      color: #FFD700;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="himanshu.jpg" alt="Himanshu Yadav" class="profile-img" />
+    <h1>Himanshu Yadav</h1>
+    <p>Hi! I'm a digital creator, influencer, salesman and affiliate marketing expert.</p>
+
+    <div class="box">
+      <a href="https://www.instagram.com/business.tips_2025?igsh=MXNuMTE2eWhqdTI0dg==" target="_blank">Instagram</a>
+      <p>Instagram pe main daily business tips aur growth hacks share karta hoon jo real life me paisa aur personal brand banane me madad karte hain.</p>
+    </div>
+
+    <div class="box">
+      <a href="https://youtube.com/@himanshu_gaming__22322?si=31j8P6xLPsS2LMe9" target="_blank">YouTube</a>
+      <p>Apne YouTube channel pe mai gaming se lekar motivation aur study hacks sab share karta hoon jo young generation ko grow karta hai.</p>
+    </div>
+
+    <div class="box">
+      <a href="mailto:hianshuy9494@gmail.com">Email</a>
+      <p>Agar tumhe personal contact karna ho ya business query ho to mujhe email karo — main kabhi ignore nahi karta.</p>
+    </div>
+
+    <div class="tagline">
+      "Sapne bade hain, himmat unse bhi badi — Impossible kuch bhi nahi!"
+    </div>
+  </div>
+</body>
+</html>
